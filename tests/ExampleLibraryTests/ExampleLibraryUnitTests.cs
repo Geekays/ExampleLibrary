@@ -11,6 +11,7 @@ namespace ExampleLibraryTests
         [InlineData(1, 2, 3)]
         [InlineData(10, 20, 30)]
         [InlineData(5, 6, 11)]
+        [InlineData(50, 6, 56)]
         public void Add_Returns_Expected_Value(int x, int y, int expectedResult)
         {
             var actualResult = Calculator.Add(x, y);
